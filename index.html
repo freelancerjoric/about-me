@@ -737,4 +737,5 @@ const navLinks=document.querySelectorAll('.nav-link');
 window.addEventListener('scroll',()=>{let cur='';sections.forEach(s=>{if(window.scrollY>=s.offsetTop-100)cur=s.id;});navLinks.forEach(l=>{l.style.color=l.getAttribute('href')==='#'+cur?'var(--accent)':'';});});
 </script>
 </body>
+
 </html>
